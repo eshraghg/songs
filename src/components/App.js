@@ -1,5 +1,6 @@
 import React from 'react';
 import SongList from './SongList';
+import SongDetails from './SongDetails';
 
 
 const App = () => {
@@ -9,6 +10,9 @@ const App = () => {
                 <div className='column eight wide'>
                     <SongList />
                 </div>
+            </div>
+            <div className='column eight wide'>
+                <SongDetails />
             </div>
         </div>
     );
